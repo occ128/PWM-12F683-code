@@ -8,13 +8,19 @@ Files Description
 
 Main.ASM:
 The main assembly program file. It includes the primary logic and flow of the program.
+DC.asm: 
+Handles the calculation of duty cycles.
+LED.asm: 
+Manages the LED operations.
+Lib.asm: 
+A library of subroutines used across the program.
+Macro.ASM: 
+Contains macro definitions for simplifying complex instruction sets.
+P12F683.INC: 
+Standard header file with configurations and register definitions for the PIC12F683.
+Vars.asm: 
+Defines variables and constants used in the program.
 
-DC.asm: Handles the calculation of duty cycles.
-LED.asm: Manages the LED operations.
-Lib.asm: A library of subroutines used across the program.
-Macro.ASM: Contains macro definitions for simplifying complex instruction sets.
-P12F683.INC: Standard header file with configurations and register definitions for the PIC12F683.
-Vars.asm: Defines variables and constants used in the program.
 Setup and Configuration
 To use these assembly files, you will need an assembler compatible with PIC microcontrollers, such as MPLAB X IDE from Microchip. Load the files into the assembler, and ensure that the PIC12F683 microcontroller is selected as the target device.
 
