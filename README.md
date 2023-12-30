@@ -5,7 +5,10 @@ This repository contains assembly language files for a program designed to run o
 The program is structured to control and manage various hardware components, with a focus on temperature management, LED control, and user input processing.
 
 Files Description
-Main.ASM: The main assembly program file. It includes the primary logic and flow of the program.
+
+Main.ASM:
+The main assembly program file. It includes the primary logic and flow of the program.
+
 DC.asm: Handles the calculation of duty cycles.
 LED.asm: Manages the LED operations.
 Lib.asm: A library of subroutines used across the program.
